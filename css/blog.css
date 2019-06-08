@@ -907,24 +907,22 @@ img{
 
 ======================================================================
 
-
-
 #corpo{
 	
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 	
-	
 }
 
-
 #AAA{
-	margin: 1%;
-	width: 1000px;
+	width: 80%;
 	background-color: white;
 	border-radius: 30px;
-	text-align: center;
-	margin-left:18%;
+	text-align: justify;
+	margin-left:10%;
+    padding: 2%;
+    box-sizing: border-box;
+    
 	
 }
 
@@ -941,4 +939,30 @@ img{
 	height:100px;
 	margin-top: 100px;
 	
+}
+
+@media only screen and (max-width:767px){
+
+    #AAA{
+
+        width: 100%;
+        margin: 0;
+        border-radius: 15px;
+
+    }
+
+  #article2,#article4,#article6,#article1,#article3,#article5,#article7{
+
+        margin-left: 20%;
+        margin-right: 0;
+        float: left;
+
+    }
+
+    .imagem1,.imagem2,.imagem3,.imagem4,.imagem5,.imagem6,.imagem7{
+
+        width: 70%;
+
+    }
+
 }

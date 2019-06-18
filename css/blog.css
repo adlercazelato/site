@@ -943,6 +943,7 @@ img{
 
 @media only screen and (max-width:767px){
 
+
     #AAA{
 
         width: 100%;
@@ -965,6 +966,39 @@ img{
 
     }
 
+    #logo{
+        
+        width: 70%;
+        margin-top: 2%;
+        margin-left:18%; 
+    }
+
+    .galeria{
+
+        width: 100%;
+        margin-top: 30%;
+        margin-right: 20%
+
+
+    }
+
+    #sobre{
+
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 30%;
+        
+
+    }
+
+    #email{
+
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 35%;
+
+    }
+
 }
 
 .galeria{
@@ -975,7 +1009,7 @@ img{
   height: 45vh;
   display: grid;
   grid-gap: 0px;
-  width: 30%
+  width: 30%;
     
 }
 
@@ -1043,5 +1077,25 @@ img{
 section{
 
 	min-height: calc(100vh - 90px);
+    
 
 }
+
+#sec2{
+
+    margin-top: -25vh;
+    height: 40vh;
+    min-height: 40vh; 
+
+}
+
+#sobre1{
+
+    height: 40vh;
+    min-height: 40vh;
+
+}
+
+
+
+
